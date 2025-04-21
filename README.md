@@ -1,8 +1,6 @@
-# ⚡ Circuit Sage – Smart Transformer Chatbot
+# ⚡ Circuit Sage – A Smart Chatbot
 
 Circuit Sage is an intelligent chatbot that was developed as part of our **Smart India Hackathon 2023 Winning** project. This chatbot is designed to assist users by identifying and providing solutions for common issues related to **transformers and substations**. With the integration of **AI/ML** and **image processing**, the system can detect faults in transformers and recommend solutions based on uploaded images.
-
----
 
 ## 🧠 Features
 
@@ -25,6 +23,26 @@ Circuit Sage is an intelligent chatbot that was developed as part of our **Smart
   Provides real-time monitoring of transformer status with reports and suggestions for maintenance.
 
 ---
+
+## Our Team 🫂
+<p align="center">
+  <img src="images/SIH1.jpg" alt="Our Team" width="600"/>
+</p>
+<br>
+<p align="center">
+  <img src="images/SIH2.jpg" alt="Our Team" width="600"/>
+</p>
+<br>
+<p align="center">
+  <img src="images/SIH3.jpg" alt="Our Team" width="600"/>
+</p>
+<br>
+<p align="center">
+  <img src="images/SIH4.jpg" alt="Our Team" width="600"/>
+</p>
+
+---
+
 
 ## 🔧 Tech Stack
 
