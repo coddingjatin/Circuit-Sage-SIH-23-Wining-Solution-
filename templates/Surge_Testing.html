@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surge Arrester Testing Form</title>
+    <link rel="stylesheet" href="../static/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+    <link rel="stylesheet" href="../static/sites/default/files/css/css_wMTwRDVSIzdtpay_zM6X4fOI8OnEdNbbEZALmGgjH4A.css" media="all" />
+    <link rel="stylesheet" href="../static/sites/default/files/css/css_5DEuqG9n0upvDsZOY-uaZYHFfSClXyaFtl7-pfjvV2g.css" media="all" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,800italic,400,600,700,800" media="all" />
+    <link rel="stylesheet" href="../static/sites/default/files/css/css_cZkjcS9yq_ka3Dj5Di6YTnRhMPCYq8xA3zGIv1v6V0k.css" media="all" />
+    <link rel="stylesheet" href="../static/sites/default/files/css/css_XW7d8r_X9a1CRRswYz5RUbGgfjVJC8-tYbb-h3CTCAE.css" media="all" />
+
+    <link rel="stylesheet" href="../static/sites/all/themes/custom/powermin/css/print/print.css">
+    <link rel="stylesheet" href="../static/sites/all/themes/custom/powermin/css/power.css">
+    <link href="../static/sites/all/themes/custom/powermin/css/power-blue.css" rel="alternate stylesheet" title="blue" media="screen">
+    <link rel="stylesheet" href="../static/sites/all/themes/custom/powermin/css/responsive.css">
+    <link href="../static/sites/all/themes/custom/powermin/css/slick.css" rel="stylesheet">
+    <link href="../static/sites/all/themes/custom/powermin/css/slick-theme.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/sites/Chatbot.css">
+    <link rel="stylesheet" href="../static/sites/styles.css">
+    <link rel="stylesheet" href="../static/sites/Popup.css">
+    <style>
+        /* Styles remain unchanged */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        fieldset {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            padding: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .validation-message {
+            color: red;
+            font-size: 0.8em;
+            margin-left: 5px;
+            /* Left-align the error messages */
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+            /* Add space between the final output and the button */
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+
+
+
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="col-md-4 col-sm-3 col-xs-12">
+                        <a class="home-link hidden-sm hidden-xs" href="index.html"><img title="Ministry of Power" alt="Ministry of Power" src="../static/sites/all/themes/custom/powermin/images/home-icon.png"> Home</a> -->
+
+
+                    </div>
+                    <!-- <div class="col-md-5 col-sm-5 col-xs-12 text-right">
+
+
+
+                        <a target="_blank" class="top-fb" href="http://www.facebook.com/pages/Ministry-of-Power-Govt-of-India/743918262321035?ref_typea"><img src="../static/sites/all/themes/custom/powermin/images/facebook-icon.png" title="Facebook" alt="Facebook"> </a>
+
+                        <a target="_blank" class="top-twitter" href="http://twitter.com/@MinOfPower"><img src="../static/sites/all/themes/custom/powermin/images/twitter-icon.png" title="Twitter" alt="Twitter"> </a>
+
+                        <a target="_blank" class="top-Instagram" href="https://www.instagram.com/minofpower/"><img src="../static/sites/all/themes/custom/powermin/images/Instagram-icon.png" title="Instagram" alt="Instagram"> </a>
+
+                        <span class="skip-link"><a href="#main-content"><img src="../static/sites/all/themes/custom/powermin/images/ico-skip.png" title="Skip to main content" alt="Skip to main content"></a></span>
+
+                        <div class="language language-power">
+                            <div class="region region-pre-header-first">
+                                <div id="block-locale-language" class="block block-locale clearfix">
+
+
+                                    <div class="content">
+                                        <ul class="language-switcher-locale-url">
+                                            <li class="en first active"><a href="en.html" class="language-link active" lang="en">English</a></li>
+                                            <li class="hi last"><a href="hi.html" class="language-link" lang="hi">हिन्दी</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div> -->
+
+                    <!-- <div class="col-md-3 col-sm-4 hidden-xs"> -->
+
+
+                        <!-- <div class="region region-search">
+                            <div id="block-search-form" class="block block-search clearfix">
+
+
+                                <div class="content">
+                                    <form action="https://powermin.gov.in/" method="post" id="search-block-form" accept-charset="UTF-8">
+                                        <div>
+                                            <div class="container-inline">
+                                                <h2 class="element-invisible">Search form</h2>
+                                                <div class="form-item form-type-textfield form-item-search-block-form">
+                                                    <input onblur="if (this.value == &#039;&#039;) {this.value = &#039;Search this website...&#039;;}" onfocus="if (this.value == &#039;Search this website...&#039;) {this.value = &#039;&#039;;}" type="text" id="edit-search-block-form--2" name="search_block_form"
+                                                        value="Search this website..." size="15" maxlength="128" class="form-text" />
+                                                </div>
+                                                <div class="form-actions form-wrapper" id="edit-actions"><input value="" type="submit" id="edit-submit" name="op" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-7SZ9eXaeTw4hBx2FOU3oB3ufKSPsl9S85Ba5-B7GtIY" />
+                                                <input type="hidden" name="form_id" value="search_block_form" />
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div> -->
+
+
+                    <!-- </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <header id="header" class="clearfix">
+        <div class="">
+            <div id="header-inside" class="clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div id="logo">
+                                <a href="en.html" title="Home" rel="home"><img src="../static/sites/all/themes/custom/powermin/logo.png" alt="Home"> </a>
+
+
+                            </div>
+
+
+                            <div class="region region-header">
+                                <div id="block-block-8" class="block block-block clearfix">
+
+
+                                    <div class="content">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                            <div class="hidden-xs" id="links">
+                                <nav class="navbar navbar-default">
+                                    <div class="container-fluid">
+
+                                        <div class="region region-header-top-menu">
+                                            <div id="block-menu-menu-top-header-menu" class="block block-menu clearfix" role="navigation">
+
+
+                                                <div class="content">
+                                                    <ul class="nav navbar-nav">
+                                                        <li class="dropdown mnre-header-menu-li menuid-704 "><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us </a>
+                                                            <ul class="dropdown-menu power-header-menu padding-none second" role="menu">
+                                                                <li><a href="#">Responsibilities</a></li>
+                                                                <li><a href="#">Organisational setup of Ministry</a></li>
+                                                                <li><a href="#">Organisations under MoP</a>
+                                                                    <li></li>
+                                                                    <li></li>
+                                                                    <li></li>
+                                                                </li>
+                                                                <li><a href="#">Unit wise work Allocation in Ministry of Power</a></li>
+                                                                <li><a href="#">Channel of submission</a></li>
+                                                                <li><a href="#">Structure of Ministry</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown mnre-header-menu-li menuid-789 "><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">RTI </a>
+                                                            <ul class="dropdown-menu power-header-menu padding-none second" role="menu">
+                                                                <li><a href="#">About RTI Act</a></li>
+                                                                <li><a href="#">Public Information Officers</a></li>
+                                                                <li><a href="#">Proactive Disclosures</a></li>
+                                                                <li><a href="#">Organisation - Work and Responsibilities</a></li>
+                                                                <li><a href="#">Upload RTI Online Application/Appeal</a></li>
+                                                                <li><a href="#">RTI MIS for CPIOs/ First Appellate Authorities</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown mnre-header-menu-li menuid-783 "><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Tenders </a><span class="toggle-arrow"><span class="caret"></span></span>
+                                                        </li>
+                                                        <li class="dropdown mnre-header-menu-li menuid-1593 "><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Grievance </a>
+                                                            <ul class="dropdown-menu power-header-menu padding-none second" role="menu">
+                                                                <li><a href="#">Complaint Committee under Sexual Harassment</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown mnre-header-menu-li menuid-791 "><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact </a>
+                                                            <ul class="dropdown-menu power-header-menu padding-none second" role="menu">
+                                                                <li><a href="#">Hon&#039;ble Cabinet Minister (Power, New &amp; Renewable Energy)</a></li>
+                                                                <li><a href="#">Hon&#039;ble Minister of State for Power</a></li>
+                                                                <li><a href="#">Head of Office/Section</a></li>
+                                                                <li><a href="#">All Ministry Officials</a></li>
+                                                                <li><a href="#">Attached offices/Autonomous bodies/PSUs/Research &amp; Training Institute etc</a></li>
+                                                                <li><a href="#">Link Officer Arrangement</a></li>
+                                                                <li><a href="#">Nodal Officer (Website)</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown mnre-header-menu-li menuid-1501 "><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Screen Reader </a><span class="toggle-arrow"><span class="caret"></span></span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swatchbharat">
+                                            <a href="sites/default/files/uploads/activities_to_be_taken_up_by_MoP_on_Azadi_ka_Amrit_Mahotsav.pdf" target="_blank"><img src="../static/sites/all/themes/custom/powermin/images/azadi.jpg" alt="Azadi ke Amrit Mahotsaw"></a>
+                                            <a href="https://swachhbharat.mygov.in/"><img src="../static/sites/all/themes/custom/powermin/images/swach-bharat.png" alt="Swach Bharat Abhiyan"></a>
+                                            <a href="https://www.g20.in/" target="_blank"><img src="../static/sites/all/themes/custom/powermin/images/G20_theme_and_logo.png" alt="G20"></a>
+                                        </div>
+
+
+                                    </div>
+
+                                </nav>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <h1>Surge Arrester Testing Form</h1>
+
+    <div class="form-container">
+        <form onsubmit="displayValidationResults()">
+
+            <!-- General Information -->
+            <fieldset>
+                <legend>General Information</legend>
+                <label for="arresterID">Surge Arrester ID:</label>
+                <input type="text" id="arresterID" name="arresterID" required>
+
+                <label for="testDate">Test Date:</label>
+                <input type="date" id="testDate" name="testDate" required>
+            </fieldset>
+
+            <!-- Electrical Parameters -->
+            <fieldset>
+                <legend>Electrical Parameters</legend>
+                <label for="voltageRating">Voltage Rating (kV):</label>
+                <input type="number" id="voltageRating" name="voltageRating" step="0.1" required>
+                <span id="voltageRatingMessage" class="validation-message"></span>
+
+                <label for="nominalDischargeCurrent">Nominal Discharge Current (kA):</label>
+                <input type="number" id="nominalDischargeCurrent" name="nominalDischargeCurrent" step="0.01" required>
+                <span id="nominalDischargeCurrentMessage" class="validation-message"></span>
+
+                <label for="steepFrontTime">Steep Front Time (μs):</label>
+                <input type="number" id="steepFrontTime" name="steepFrontTime" step="0.1" required>
+                <span id="steepFrontTimeMessage" class="validation-message"></span>
+
+                <label for="energyAbsorptionCapability">Energy Absorption Capability (kJ/kV):</label>
+                <input type="number" id="energyAbsorptionCapability" name="energyAbsorptionCapability" step="0.01" required>
+                <span id="energyAbsorptionCapabilityMessage" class="validation-message"></span>
+
+                <label for="responseTime">Response Time (ms):</label>
+                <input type="number" id="responseTime" name="responseTime" step="0.01" required>
+                <span id="responseTimeMessage" class="validation-message"></span>
+            </fieldset>
+
+            <!-- Housing and Insulation (additional parameters) -->
+            <fieldset>
+                <legend>Housing and Insulation</legend>
+                <label for="housingMaterial">Housing Material:</label>
+                <select id="housingMaterial" name="housingMaterial" required>
+                    <option value="polymer">Polymer</option>
+                    <option value="porcelain">Porcelain</option>
+                </select>
+                <span id="housingMaterialMessage" class="validation-message"></span>
+
+                <label for="insulationClass">Insulation Class:</label>
+                <select id="insulationClass" name="insulationClass" required>
+                    <option value="classI">Class I</option>
+                    <option value="classII">Class II</option>
+                </select>
+                <span id="insulationClassMessage" class="validation-message"></span>
+            </fieldset>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+
+            <!-- Final Output -->
+            <div id="finalOutput" style="text-align: center; margin-top: 20px; font-weight: bold;"></div>
+
+            <!-- Validation Messages -->
+            <div id="validationMessages" style="text-align: left; margin-top: 20px; color: red; font-weight: bold;"></div>
+
+            <!-- Copy Errors Button (added dynamically based on validation messages) -->
+            <button id="copyErrorsButton" style="display: none;" onclick="copyErrors()">Copy Errors</button>
+
+        </form>
+
+    </div>
+
+    <script>
+        function displayValidationResults() {
+            // Prevent the form from submitting
+            event.preventDefault();
+
+            // Function to check if a value is within a specific range
+            function isInRange(value, min, max) {
+                return value >= min && value <= max;
+            }
+
+            // Object to store validation messages
+            var validationMessages = {};
+
+            // Validate Voltage Rating (Ideal Range: 1 kV or higher)
+            var voltageRating = parseFloat(document.getElementById('voltageRating').value);
+            if (voltageRating < 1) {
+                validationMessages.voltageRating = "Given surge arrester's Voltage Rating is below the ideal range (1 kV or higher).";
+            }
+
+            // Validate Nominal Discharge Current (Ideal Range: 5 to 50 kA)
+            var nominalDischargeCurrent = parseFloat(document.getElementById('nominalDischargeCurrent').value);
+            if (!isInRange(nominalDischargeCurrent, 5, 50)) {
+                validationMessages.nominalDischargeCurrent = "Given Nominal Discharge Current is outside the ideal range (5 to 50 kA).";
+            }
+
+            // Validate Steep Front Time (Ideal Range: 1 to 10 μs)
+            var steepFrontTime = parseFloat(document.getElementById('steepFrontTime').value);
+            if (!isInRange(steepFrontTime, 1, 10)) {
+                validationMessages.steepFrontTime = "Given Steep Front Time is outside the ideal range (1 to 10 μs).";
+            }
+
+            // Validate Energy Absorption Capability (Ideal Range: 5 to 20 kJ/kV)
+            var energyAbsorptionCapability = parseFloat(document.getElementById('energyAbsorptionCapability').value);
+            if (!isInRange(energyAbsorptionCapability, 5, 20)) {
+                validationMessages.energyAbsorptionCapability = "Given Energy Absorption Capability is outside the ideal range (5 to 20 kJ/kV).";
+            }
+
+            // Validate Response Time (Ideal Range: 0.5 to 5 ms)
+            var responseTime = parseFloat(document.getElementById('responseTime').value);
+            if (!isInRange(responseTime, 0.5, 5)) {
+                validationMessages.responseTime = "Given Response Time is outside the ideal range (0.5 to 5 ms).";
+            }
+
+            // Get values for additional parameters
+            var housingMaterial = document.getElementById('housingMaterial').value;
+            var insulationClass = document.getElementById('insulationClass').value;
+
+            // Display validation messages
+            var validationMessagesText = "";
+            for (var key in validationMessages) {
+                if (validationMessages.hasOwnProperty(key)) {
+                    validationMessagesText += key.charAt(0).toUpperCase() + key.slice(1) + ': ' + validationMessages[key] + '<br>';
+                }
+            }
+
+            // Display final output
+            var finalOutputElement = document.getElementById('finalOutput');
+            if (finalOutputElement) {
+                var isGoodCondition = validationMessagesText === "" && housingMaterial === 'polymer' && insulationClass === 'classI';
+                finalOutputElement.innerHTML = isGoodCondition ? "The surge arrester is GOOD!" : "The surge arrester is NOT good.";
+                finalOutputElement.style.color = isGoodCondition ? "green" : "red";
+            }
+
+            // Display validation messages below the final output
+            var validationMessagesElement = document.getElementById('validationMessages');
+            if (validationMessagesElement) {
+                validationMessagesElement.innerHTML = validationMessagesText;
+            }
+
+            // Show or hide the "Copy Errors" button based on validation messages
+            var copyErrorsButton = document.getElementById('copyErrorsButton');
+            if (copyErrorsButton) {
+                copyErrorsButton.style.display = validationMessagesText === "" ? 'none' : 'block';
+            }
+        }
+
+        function copyErrors() {
+            // Copy validation messages to clipboard
+            var validationMessagesElement = document.getElementById('validationMessages');
+            if (validationMessagesElement) {
+                var range = document.createRange();
+                range.selectNode(validationMessagesElement);
+                window.getSelection().removeAllRanges();
+                window.getSelection().addRange(range);
+                document.execCommand('copy');
+                window.getSelection().removeAllRanges();
+
+                // Optionally, you can provide user feedback that the content is copied
+                alert('Validation errors copied to clipboard!');
+            }
+        }
+    </script>
+
+</body>
+
+</html>

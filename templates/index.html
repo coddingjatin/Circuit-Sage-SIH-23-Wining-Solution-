@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" >
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Goverment of India, Ministry of Power" />
+<meta name="keywords" content="generation, distribution, transmission, contact, Power, India, Government, Ministry, Governance" />
+<meta name="generator" content="MPower" />
+<meta name="language"  content="en" >
+<meta name="title" content="Goverment of India, Ministry of Power"/>
+  
+      <title>Welcome to Government of India | Ministry of Power</title>
+  
+  <link rel="stylesheet" href="../static/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link rel="stylesheet" href="../static/sites/default/files/css/css_wMTwRDVSIzdtpay_zM6X4fOI8OnEdNbbEZALmGgjH4A.css" media="all" />
+<link rel="stylesheet" href="../static/sites/default/files/css/css_5DEuqG9n0upvDsZOY-uaZYHFfSClXyaFtl7-pfjvV2g.css" media="all" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,800italic,400,600,700,800" media="all" />
+<link rel="stylesheet" href="../static/sites/default/files/css/css_cZkjcS9yq_ka3Dj5Di6YTnRhMPCYq8xA3zGIv1v6V0k.css" media="all" />
+<link rel="stylesheet" href="../static/sites/default/files/css/css_XW7d8r_X9a1CRRswYz5RUbGgfjVJC8-tYbb-h3CTCAE.css" media="all" />
+
+  <link rel="stylesheet" href="../static/sites/all/themes/custom/powermin/css/print/print.css">  
+<link rel="stylesheet" href="../static/sites/all/themes/custom/powermin/css/power.css">
+<link href="../static/sites/all/themes/custom/powermin/css/power-blue.css" rel="alternate stylesheet" title="blue" media="screen">
+<link rel="stylesheet" href="../static/sites/all/themes/custom/powermin/css/responsive.css">  
+<link href="../static/sites/all/themes/custom/powermin/css/slick.css" rel="stylesheet">
+<link href="../static/sites/all/themes/custom/powermin/css/slick-theme.css" rel="stylesheet">
+<link rel="stylesheet" href="../static/sites/Chatbot.css">
+<link rel="stylesheet" href="../static/sites/styles.css">
+<link rel="stylesheet" href="../static/sites/Popup.css">
+
+
+
+
+<style>
+#custom-marquee {
+	overflow: hidden;
+	position: relative;
+	background: #fefefe;
+	color: #333;
+}
+
+#custom-marquee ul li {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	line-height: 50px;
+	text-align: center;
+	-moz-transform: translateX(50%);
+	-webkit-transform: translateX(50%);
+	transform: translateX(50%);
+	-moz-animation: bouncing-text 5s linear infinite alternate;
+	-webkit-animation: bouncing-text 5s linear infinite alternate;
+	animation: bouncing-text 10s linear infinite alternate;
+}
+
+@-moz-keyframes bouncing-text {
+	0% {
+		-moz-transform: translateX(50%);
+	}
+	100% {
+		-moz-transform: translateX(-50%);
+	}
+}
+
+@-webkit-keyframes bouncing-text {
+	0% {
+		-webkit-transform: translateX(50%);
+	}
+	100% {
+		-webkit-transform: translateX(-50%);
+	}
+}
+
+@keyframes bouncing-text {
+	0% {
+		-moz-transform: translateX(50%);
+		-webkit-transform: translateX(50%);
+		transform: translateX(50%);
+	}
+	100% {
+		-moz-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+}
+.top-bar .block-search .form-type-textfield input {
+    background: #fff;
+    border: solid 1px #ededee;
+    padding: 3px 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #333;
+    width: 200px;
+}
+
+.top-bar .block-search .form-actions input {
+    background: url(sites/all/themes/custom/powermin/images/search-icon.png) no-repeat left top;
+    border: none;
+    width: 42px;
+    height: 20px;
+    text-indent: -1000px;
+    font-size: 1px;
+    position: absolute;
+    right: 3px;
+    top: 4px;
+}
+
+.page-search-node-power .search-form{margin-top: 15px}
+.page-search-node-power #page > .col-lg-12 > .col-lg-9{width: 100%}
+</style>
+<style>
+#node-navigation li {
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+    color: #333;
+}
+#node-navigation li a {
+    color: #333 !important;
+    font-size: 14px;
+}
+</style>
+
+<script src="{{ url_for('static', filename='js/Chatbot.js') }}"></script>
+
+</head>
+
+
+<body class="html front not-logged-in one-sidebar sidebar-first page-node i18n-en">
+
+
+  <div class="chatbot" id="xyz">
+    <input type="checkbox" id="check" />
+    <label class="chat-btn" for="check">
+      <img src="../static/sites/chatbot1.png" alt="">
+    </label>
+    
+    <div class="wrappe">
+       <div class="header text-center"><h6>Circuit Sage - Online</h6></div>
+        <div class="chat-container">
+        <div class="chat-box" id="chatBox"> </div>
+        <div class="user-input">
+          <div class="maintenance-options options">
+            <button for="transformer" onclick="sendDataToServer('process_data')">Transformer</button>
+            <button for="substation" onclick="sendDataToServer('process_data_substation')">Substation</button>
+            <a href="/index1"><button for="oilChange">Testing</button></a>
+            <button onclick="Speak()">Speak</button>
+          </div>
+          <label for="pageSelect">Select Testing:</label>
+          <select id="pageSelect" onchange="navigateToPage()">
+            <option value="none">Select Testing</option>
+            <option value="Circuit_Breaker">Circuit Breaker</option>
+            <option value="Surge_Testing">Surge Training</option>
+            <option value="Transformer_Testing">Transformer Testing</option>
+          </select>
+          <div>
+            <input type="file" id="ImageInput" accept="image/*" capture="camera">
+          </div>
+          <!-- <div>
+            <button onclick="sendDataToServer()">Process Data</button>
+          </div> -->
+          <form id="contactForm" action="/" method="post">
+            <input type="text" name="query" id="userInput" placeholder="Enter your query">
+            <input type="submit" onclick="sendMessage()" value="Submit">
+        </form>
+        </div>
+    </div>
+  </div>
+
+  <script>
+    function navigateToPage() {
+      const select = document.getElementById("pageSelect");
+      const selectedValue = select.options[select.selectedIndex].value;
+  
+      if (selectedValue !== "none") {
+        window.location.href = `/${selectedValue}`;
+      }
+    }
+  </script>
+  <script>
+    function Speak() {
+      const elements = document.querySelectorAll(".chat-box");
+      elements.forEach(function(element) {
+          const text = element.textContent; 
+          console.log(text);
+          const speech = new SpeechSynthesisUtterance(text);
+          window.speechSynthesis.speak(speech);
+      });
+    }
+  </script>
+
+<div id="wrapper">
+
+  
+
+    <div class="top-bar">
+	<div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-3 col-xs-12"> <a class="home-link hidden-sm hidden-xs" href="index.html"><img title="Ministry of Power" alt="Ministry of Power" src="../static/sites/all/themes/custom/powermin/images/home-icon.png"> Home</a>
+
+
+ </div>
+        <div class="col-md-5 col-sm-5 col-xs-12 text-right"> 
+
+
+		   
+          <a target="_blank" class="top-fb" href="http://www.facebook.com/pages/Ministry-of-Power-Govt-of-India/743918262321035?ref_typea"><img src="../static/sites/all/themes/custom/powermin/images/facebook-icon.png" title="Facebook" alt="Facebook"> </a> 
+		  
+          <a target="_blank" class="top-twitter" href="http://twitter.com/@MinOfPower"><img src="../static/sites/all/themes/custom/powermin/images/twitter-icon.png" title="Twitter" alt="Twitter"> </a>
+		  
+		   <a target="_blank" class="top-Instagram" href="https://www.instagram.com/minofpower/"><img src="../static/sites/all/themes/custom/powermin/images/Instagram-icon.png" title="Instagram" alt="Instagram"> </a>  
+		  
+		  <span class="skip-link"><a href="#main-content"><img src="../static/sites/all/themes/custom/powermin/images/ico-skip.png" title="Skip to main content" alt="Skip to main content"></a></span>
+         
+		<div class="language language-power">
+		  <div class="region region-pre-header-first">
+    <div id="block-locale-language" class="block block-locale clearfix">
+
+    
+  <div class="content">
+    <ul class="language-switcher-locale-url"><li class="en first active"><a href="en.html" class="language-link active" lang="en">English</a></li>
+<li class="hi last"><a href="hi.html" class="language-link" lang="hi">हिन्दी</a></li>
+</ul>  </div>
+</div>
+  </div>
+      
+		  </div>
+		  
+        </div>
+		
+        <div class="col-md-3 col-sm-4 hidden-xs">
+		 
+        
+            <div class="region region-search">
+    <div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form action="https://powermin.gov.in/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+ <input onblur="if (this.value == &#039;&#039;) {this.value = &#039;Search this website...&#039;;}" onfocus="if (this.value == &#039;Search this website...&#039;) {this.value = &#039;&#039;;}" type="text" id="edit-search-block-form--2" name="search_block_form" value="Search this website..." size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input value="" type="submit" id="edit-submit" name="op" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-7SZ9eXaeTw4hBx2FOU3oB3ufKSPsl9S85Ba5-B7GtIY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+        
+      
+	  </div>
+	  </div>
+    </div>
+	</div>
+	</div>
+	
+	
+
+<header id="header" class="clearfix">
+    <div class="">
+        <div id="header-inside" class="clearfix">
+		<div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <div id="logo">
+                                       <a href="en.html" title="Home" rel="home"><img src="../static/sites/all/themes/custom/powermin/logo.png" alt="Home"> </a>
+
+                                     
+                  </div>
+                  
+                  
+                                      <div class="region region-header">
+    <div id="block-block-8" class="block block-block clearfix">
+
+    
+  <div class="content">
+ </div>
+</div>
+  </div>
+                                  </div>
+               
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="hidden-xs" id="links">
+                      <nav class="navbar navbar-default">
+                        <div class="container-fluid">             
+                                              
+                      <div class="region region-header-top-menu">
+    <div id="block-menu-menu-top-header-menu" class="block block-menu clearfix" role="navigation">
+
+    
+  <div class="content">
+    <ul class="nav navbar-nav"><li class="dropdown mnre-header-menu-li menuid-704 "><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >About Us </a><ul class="dropdown-menu power-header-menu padding-none second" role="menu"><li><a href="#">Responsibilities</a></li><li><a href="#">Organisational setup of Ministry</a></li><li><a href="#">Organisations under MoP</a><li></li><li></li><li></li></li><li><a href="#">Unit wise work Allocation in Ministry of Power</a></li><li><a href="#">Channel of submission</a></li><li><a href="#">Structure of Ministry</a></li></ul></li><li class="dropdown mnre-header-menu-li menuid-789 "><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >RTI </a><ul class="dropdown-menu power-header-menu padding-none second" role="menu"><li><a href="#">About RTI Act</a></li><li><a href="#">Public Information Officers</a></li><li><a href="#">Proactive Disclosures</a></li><li><a href="#">Organisation - Work and Responsibilities</a></li><li><a href="#">Upload RTI Online Application/Appeal</a></li><li><a href="#">RTI MIS for CPIOs/ First Appellate Authorities</a></li></ul></li><li class="dropdown mnre-header-menu-li menuid-783 "><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >Tenders </a><span class="toggle-arrow"><span class="caret"></span></span></li><li class="dropdown mnre-header-menu-li menuid-1593 "><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >Grievance </a><ul class="dropdown-menu power-header-menu padding-none second" role="menu"><li><a href="#">Complaint Committee under Sexual Harassment</a></li></ul></li><li class="dropdown mnre-header-menu-li menuid-791 "><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >Contact </a><ul class="dropdown-menu power-header-menu padding-none second" role="menu"><li><a href="#">Hon&#039;ble Cabinet Minister (Power, New &amp; Renewable Energy)</a></li><li><a href="#">Hon&#039;ble Minister of State for Power</a></li><li><a href="#">Head of Office/Section</a></li><li><a href="#">All Ministry Officials</a></li><li><a href="#">Attached offices/Autonomous bodies/PSUs/Research &amp; Training Institute etc</a></li><li><a href="#">Link Officer Arrangement</a></li><li><a href="#">Nodal Officer (Website)</a></li></ul></li><li class="dropdown mnre-header-menu-li menuid-1501 "><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >Screen Reader </a><span class="toggle-arrow"><span class="caret"></span></span></li></ul>  </div>
+</div>
+  </div>
+    <div class="swatchbharat"><a href="sites/default/files/uploads/activities_to_be_taken_up_by_MoP_on_Azadi_ka_Amrit_Mahotsav.pdf" target="_blank"><img src="../static/sites/all/themes/custom/powermin/images/azadi.jpg" alt="Azadi ke Amrit Mahotsaw"></a> 
+	<a href="https://swachhbharat.mygov.in/"><img src="../static/sites/all/themes/custom/powermin/images/swach-bharat.png" alt="Swach Bharat Abhiyan"></a><a href="https://www.g20.in/" target="_blank"><img src="../static/sites/all/themes/custom/powermin/images/G20_theme_and_logo.png" alt="G20"></a></div>	 
+                    								
+                           
+                        </div>
+						
+                      </nav>
+					  
+                    </div>
+					
+                  </div>
+            </div>
+        </div>
+
+    </div>
+	
+	</div>
+</header>
+
+ <div id="main-navigation" class="clearfix">
+    <div class="">
+				
+      <div id="navigation">
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                </div>
+                <div class="navbar-collapse collapse" id="navbar1">
+                                            <div class="region region-header-main-menu">
+    <div id="block-system-main-menu" class="block block-system block-menu clearfix" role="navigation">
+
+    
+  <div class="content">
+    <ul class="nav navbar-nav"><li class="dropdown power-main-menu-li menuid-921 "><a href="en.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >Acts & Rules </a><ul class="dropdown-menu power-main-menu padding-none second" role="menu"><li><a href="en/content/electricity-act-2003.html">Electricity Act, 2003</a></li><li><a href="sites/default/files/uploads/ecact2001.pdf">Energy Conservation Act, 2001</a></li><li><a href="sites/default/files/uploads/DVC_Act_No._XIV_of_1948.pdf">DVC Act 1948 </a></li><li><a href="en/content/status.html">Status</a></li></ul></li><li class="dropdown power-main-menu-li menuid-368 "><a href="en/content/overview.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >Generation </a><ul class="dropdown-menu power-main-menu padding-none second" role="menu"><li><a href="en/content/overview.html">Overview</a></li><li><a href="sites/default/files/uploads/power_sector_at_glance_Oct_2023.pdf">Power Sector at a Glance ALL INDIA</a></li><li><a href="en/content/generation-capacity.html">Generation Capacity</a></li><li><a href="en/content/capacity-addition-programme-xii-plan-beyond.html">Capacity Addition Programme -  XII Plan &amp; Beyond</a></li><li><a href="en/content/generation-reports.html">Generation Reports</a></li><li><a href="en/content/protection-environment.html">Protection of Environment</a></li><li><a href="en/content/ultra-mega-power-projects.html">ULTRA MEGA POWER PROJECTS</a></li><li><a href="en/content/renovation-and-modernization.html">Renovation and Modernization</a></li></ul></li><li class="dropdown power-main-menu-li menuid-839 "><a href="en/content/overview-0.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >Transmission </a><ul class="dropdown-menu power-main-menu padding-none second" role="menu"><li><a href="en/content/overview-0.html">Overview</a></li><li><a href="en/content/creation-national-grid.html">Creation of National Grid</a></li><li><a href="sites/default/files/uploads/major_Grid_substations_Eng.pdf">Major Grid Substations of POWERGRID</a></li><li><a href="en/content/milestones.html">Milestones</a></li><li><a href="en/content/international-cooperation-electricity.html">International Cooperation</a></li><li><a href="en/content/national-electricity-plan-0.html">National Electricity Plan II</a></li><li><a href="en/content/green-energy-corridor.html">Green Energy Corridor</a></li><li><a href="en/content/goi-funded-transmission-schemes.html">GoI funded Schemes</a></li><li><a href="en/content/central-and-state-transmission-utilities.html">CTU and STUs</a></li><li><a href="en/content/private-participation-transmission-sector.html">Private Participation</a></li><li><a href="en/content/power-grid.html">Power Grid</a></li><li><a href="en/content/mous-between-powergrid-and-mop.html">MoUs with POWERGRID</a></li><li><a href="en/content/important-orders-guidelines-notifications-reports.html">Important Orders/ Guidelines/ Notifications/ Reports</a></li><li><a href="en/content/tenders-tbcb-transmission-projects.html">Tenders for TBCB Transmission Projects</a></li><li><a href="en/content/500gw-nonfossil-fuel-target.html">500GW Nonfossil Fuel Target</a></li></ul></li><li class="dropdown power-main-menu-li menuid-895 "><a href="en/content/national-electricity-fund.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >Distribution </a><ul class="dropdown-menu power-main-menu padding-none second" role="menu"><li><a href="en/content/national-electricity-fund.html">National Electricity Fund</a></li><li><a href="en/content/mous-between-mop-and-pfc-4.html">MoUs Between MoP and PFC</a></li><li><a href="en/content/national-smart-grid-missionnsgm-0.html">National Smart Grid Mission(NSGM)</a></li><li><a href="en/content/integrated-power-development-schemeipds.html">Integrated Power Development Scheme(IPDS)</a></li><li><a href="en/content/deendayal-upadhyaya-gram-jyoti-yojana-ddugjy.html">DDUGJY</a></li><li><a href="en/content/saubhagya.html">Saubhagya</a></li></ul></li><li class="dropdown power-main-menu-li menuid-1951 "><a href="en/content/overview-5.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >Revamped Distribution Scheme </a><ul class="dropdown-menu power-main-menu padding-none second" role="menu"><li><a href="en/content/overview-5.html">Overview</a></li><li><a href="en/content/office-memorandum.html">Office Memorandum</a></li><li><a href="en/content/guidelines.html">Guidelines</a></li><li><a href="en/content/standard-operating-procedure.html">Standard Operating Procedure</a></li><li><a href="en/content/energy-accounting-guidelines.html">Energy Accounting Guidelines</a></li><li><a href="https://pfcindia.com/Home/VS/25">Integrated Rating of State Power Utilities</a></li><li><a href="https://www.pfcindia.com/Content/PerformanceReport.aspx">Performance Report of State Power Utilities</a></li><li><a href="en/content/ease-doing-business-getting-electricity.html">Ease of Doing Business - Getting Electricity</a></li><li><a href="en/content/uday.html">UDAY</a></li><li><a href="https://rdss.powermin.gov.in/">Web-Portal Revamped Distribution Sector Scheme</a></li></ul></li><li class="dropdown power-main-menu-li menuid-929 "><a href="en/content/overview-2.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >Energy Conservation & Energy Transition </a><ul class="dropdown-menu power-main-menu padding-none second" role="menu"><li><a href="en/content/overview-2.html">Overview</a></li><li><a href="en/content/rulesregulations-under-energy-conservation-act-2001.html">Rules/Regulations under Energy Conservation Act, 2001</a></li><li><a href="en/content/electric-vehicle.html">Electric Vehicle</a></li></ul></li><li class="dropdown power-main-menu-li menuid-935 "><a href="en.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >Research & Training </a><ul class="dropdown-menu power-main-menu padding-none second" role="menu"><li><a href="en/content/training.html">Training</a></li><li><a href="en/content/national-power-training-institute.html">Training Institutes</a></li><li><a href="en/content/research-and-development.html">Research and Development</a></li><li><a href="en/content/cpri.html">Research Institutes</a></li></ul></li><li class="dropdown power-main-menu-li menuid-1601 "><a href="en.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >Dashboards/Portals </a><ul class="dropdown-menu power-main-menu padding-none second" role="menu"><li><a href="https://rdss.powermin.gov.in/">Revamped Distribution Sector Scheme</a></li><li><a href="https://npp.gov.in/">National Power Portal</a></li><li><a href="https://www.uday.gov.in/">UDAY Dashboard</a></li><li><a href="https://vidyutpravah.in/">Vidyut Pravah</a></li><li><a href="http://ujala.gov.in/">UJALA</a></li><li><a href="https://www.mstcecommerce.com/auctionhome/ppa/index.jsp">Deep e-Bidding</a></li><li><a href="http://tarang.website/">TARANG</a></li><li><a href="http://saubhagya.gov.in/">Saubhagya Dashboard </a></li><li><a href="http://praapti.in/">PRAAPTI</a></li></ul></li><li class="dropdown power-main-menu-li menuid-1367 "><a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >ETWG G20 </a><ul class="dropdown-menu power-main-menu padding-none second" role="menu"><li><a href="en/content/about-g20.html">About G20</a></li><li><a href="en/content/energy-transitions-working-group.html">Energy Transitions Working Group</a></li><li><a href="en/content/pm-speech.html">PM Speech</a></li><li><a href="en/content/g20-etwg-documents.html">G20 / ETWG Documents</a></li><li><a href="en/content/studies.html">Studies</a></li><li><a href="en/content/delegate-experience.html">Delegate Experience</a></li><li><a href="en/content/press-releases.html">Press Releases</a></li></ul></li></ul>  </div>
+</div>
+  </div>
+                                  </div>
+              </div>
+            </nav>
+          </div>
+    </div>
+	
+</div>
+
+           <div class="region region-home-slider">
+    <div id="block-views-home-slider-block" class="block block-views clearfix">
+
+    
+  <div class="content">
+          
+      <div  id="flexslider-1" class="flexslider optionset-default">
+  <ul class="slides"><li>  
+          <a href="https://readpreamble.nic.in/registration.aspx" ><img src="../static/sites/default/constitution_day.jpg" alt="Constitution Day" title="Constitution Day" /></a>  </li>
+<li>  
+          <a href="https://constitutionquiz.nic.in/Userregistration.aspx?langID=EN" ><img src="../static/sites/default/constitution_day.jpg" alt="Preamble" title="Preamble" /></a>  </li>
+<li>  
+          <a href="index.html" ><img src="../static/sites/default/constitution_day.jpg" alt="UJALA" title="UJALA" /></a>  </li>
+<li>  
+          <a href="index.html" ><img src="../static/sites/default/constitution_day.jpg" alt="One Nation One Grid" title="One Nation One Grid" /></a>  </li>
+<li>  
+          <a href="index.html" ><img src="../static/sites/default/constitution_day.jpg" alt="Powering India" title="Powering India" /></a>  </li>
+<li>  
+          <a href="index.html" ><img src="../static/sites/default/constitution_day.jpg" alt="Power for All" title="Power for All" /></a>  </li>
+<li>  
+          <a href="index.html" ><img src="../static/sites/default/constitution_day.jpg" alt="Azadi ka Amrit Mahotsaw" title="Azadi ka Amrit Mahotsaw" /></a>  </li>
+</ul></div>
+      
+  </div>
+</div>
+  </div>
+   
+<div id="page" class="clearfix">
+<div class="container">
+    <div id="main-content">
+        <div class="">
+            <div id="welcome-box">
+              <div class="row">
+                <div class="col-md-9 col-sm-8 col-xs-12">
+                                          <div class="region region-home-banner-left">
+    <div id="block-block-1" class="block block-block clearfix" role="banner">
+
+    
+  <div class="content">
+    <div class="left-part clearfix"><img alt="Prime Minister" src="../static/sites/default/narendra_modi_left.png" style="width: 239px; height: 233px; float: left; margin-top: 20px; margin-bottom: 20px;" /><br /><div class="pull-right welcome_ministry">
+<h3 style="text-align: justify;"><sup>"</sup>Energy sector plays a big role in the progress</h3>
+<h3>of the country and contributes to both ease of</h3>
+<h3>living and ease of doing business<sup>"</sup></h3>
+<p> </p>
+<p> </p>
+<p>
+</p><h4><a href="https://pmindia.gov.in/" style="font-weight: bold; font-size: 1.154em;" target="_blank">Shri Narendra Modi</a></h4>
+<h5><span>Hon'ble Prime Minister of India</span></h5>
+<p>
+</p><p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</div>
+</div>
+  </div>
+</div>
+  </div>
+                                     
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-12 clearfix">
+                                          <div class="region region-home-banner-right">
+    <div id="block-block-2" class="block block-block clearfix" role="banner">
+
+    
+ 
+  </div>
+                                   </div>
+              </div>
+            </div>
+          
+            <div id="quick_link">
+              <div class="bg"></div>
+              <div class="row">
+                <div class="col-md-9 col-sm-8 col-xs-12">
+                  <div role="tabpanel"> 
+                    <ul class="nav nav-tabs" role="tablist">
+                      <li class="active"><a href="#tab1" role="tab" data-toggle="tab">New Notices</a></li>
+					                        <li><a href="https://pib.gov.in/newsite/pmphoto.aspx?mincode=52">Photo Gallery</a></li>
+					 
+					  
+					  <li><a href="https://pib.gov.in/newsite/pmreleases.aspx?mincode=52" target="_blank">Press Releases</a></li>
+					  
+					
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="tab1">
+                                                                       <div class="region region-current-notices">
+    <div id="block-views-announcement-block-1" class="block block-views clearfix">
+
+    
+  <div class="content">
+    <div class="view view-announcement view-id-announcement view-display-id-page_1 view-dom-id-a4e66252f137c0d91748187de41d91d3">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="">  
+  <div class="date">Dec<span>05</span></div>  
+
+
+    
+
+  
+  
+
+
+    
+
+  
+  
+
+
+    
+
+  
+<div class="des"><span class="col-md-10"><a href="sites/default/files/webform/notices/Selection_for_the_post_of_Director_Projects_in_NHPC_Limited_a_schedule_A_CPSE_0.html" target="_blank">Selection for the post of Director(Projects) in NHPC Limited, a schedule "A" CPSE- reg.</a>  (4.67 MB, pdf)</span></div>
+   
+
+
+    
+
+</li>
+          <li class="">  
+  <div class="date">Dec<span>05</span></div>  
+
+
+    
+
+  
+  
+
+
+    
+
+  
+  
+
+
+    
+
+  
+<div class="des"><span class="col-md-10"><a href="sites/default/files/webform/notices/Selection_for_the_post_of_Director_Finance_THDC_India_Limited_a_schedule_A_CPSE.html" target="_blank">Selection for the post of Director (Finance), THDC India Limited, a schedule 'A' CPSE</a>  (1.9 MB, pdf)</span></div>
+   
+
+
+    
+
+</li>
+          <li class="">  
+  <div class="date">Nov<span>13</span></div>  
+
+
+    
+
+  
+  
+
+
+    
+
+  
+  
+
+
+    
+
+  
+<div class="des"><span class="col-md-10"><a href="sites/default/files/webform/notices/Vacancy_Circular_for_selection_of_the_post_of_Member_CERC.html" target="_blank">Vacancy Circular for selection of the post of Member, Central Electricity Regulatory Commission</a>  (5.17 MB, pdf)</span></div>
+   
+
+
+    
+
+</li>
+          <li class="">  
+  <div class="date">Nov<span>10</span></div>  
+
+
+    
+
+  
+  
+
+
+    
+
+  
+  
+
+
+    
+
+  
+<div class="des"><span class="col-md-10"><a href="sites/default/files/webform/notices/Price_Benchmarking_of_Biomass_Pellets_for_co_firing_in_Thermal_Power_Plants_for_Northern_Region_excluding_NCR.html" target="_blank">Price Benchmarking of Biomass Pellets for co-firing in Thermal Power Plants for Northern Region (excluding NCR)</a>  (786.85 KB, pdf)</span></div>
+   
+
+
+    
+
+</li>
+          <li class="">  
+  <div class="date">Nov<span>10</span></div>  
+
+
+    
+
+  
+  
+
+
+    
+
+  
+  
+
+
+    
+
+  
+<div class="des"><span class="col-md-10"><a href="sites/default/files/webform/notices/MoP_Advisory_letter_dated_08112023_Western_Region.html" target="_blank">Price Benchmarking of Biomass Pellets for co-firing in Thermal Power Plants for Western Region</a>  (795.76 KB, pdf)</span></div>
+   
+
+
+    
+
+</li>
+      </ul></div>    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+    </div>
+  
+  
+</div>  </div>
+</div>
+  </div>
+                                           	                      
+                      </div>
+                      <div class="tab-pane" id="tab4">
+                                               <form accept-charset="UTF-8" id="views-exposed-form-announcement-page-1"  class="form-horizontal serch_report" method="get" action="https://powermin.gov.in/announcements">
+                          <div class="form-group">
+                            <label class="control-label col-sm-3">Column to search </label>
+                            <div class="col-sm-9">
+                              <select class="form-control input-sm" name="type">
+                                <option value="all">Search All Columns</option>
+                                <option value="date">Date</option>
+                                <option value="subject">Subject</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="control-label col-sm-3">Value to search for </label>
+                            <div class="col-sm-9">
+                              <input type="text" class="form-control" name="search" id="search-text" placeholder="" value="">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-sm-offset-3 col-sm-10">
+                              <button type="submit" class="btn btn-default" id="edit-submit-announcement">Search</button>
+                              <button type="reset" class="btn btn-default" value="Reset" name="op" id="edit-reset">Reset</button>
+                            </div>
+                          </div>
+                        </form>
+                                              </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                  <div class="quick_link">
+                                            <div class="region region-quick-link">
+    <div id="block-menu-menu-quick-links" class="block block-menu clearfix" role="main">
+
+    <h2>Quick links</h2>
+  
+  <div class="content">
+    <ul><li><a href="en/content/gst-facilitation-cell.html" title="GST Facilitation Cell" target="_blank">GST Facilitation Cell</a></li>
+<li><a href="en/content/web-link-reforms-booklet.html" title="Web Link for Reforms Booklet" target="_blank">Web Link for Reforms Booklet</a></li>
+<li><a href="en/content/policies-and-publications.html" title="Policies &amp; Publications">Policies &amp; Publications</a></li>
+<li><a href="en/content/finance-and-accounts.html" title="Finance &amp; Account">Finance &amp; Accounts</a></li>
+<li><a href="en/content/vacancies.html" title="Vacancies">Vacancies</a></li>
+<li><a href="sites/default/files/uploads/Backlog_Vacancies.html" target="_blank">Backlog Vacancies</a></li>
+<li><a href="en/content/constitution-provision-relating-%e2%80%9celectricity%e2%80%9d.html" title="Constitution Provision Relating to &quot;Electricity&quot;" target="_blank">Constitution Provision Relating to &quot;Electricity&quot;</a></li>
+<li><a href="https://pgportal.gov.in/" title="Public Grievances">Public Grievances</a></li>
+<li><a href="en/content/fundamental-duties.html" title="Fundamental Duties" target="_blank">Fundamental Duties</a></li>
+<li><a href="sites/default/files/uploads/Consumers_Rules_2020.html" title="Electricity (Rights of Consumer) Rules, 2020">Electricity (Rights of Consumer) Rules, 2020</a></li>
+<li><a href="en/content/requests-surrendering-cgss-power.html" title="Surrender share" target="_blank">Requests of Surrendering of CGSs Power</a></li>
+<li><a href="en/content/frequently-asked-questions.html" title="Frequently Asked Questions">Frequently Asked Questions</a></li>
+</ul>  </div>
+</div>
+  </div>
+                                      </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<div class="container">
+
+
+</div>
+<div class= "container">
+<footer id="subfooter" class="clearfix">
+<img src="https://cbpssubscriber.mygov.in/assets/uploads/X0qP81f7lg3YqNFI" alt="Mygov" id="_tisrVKASXUgI8aPD" onclick="javascript:window.open('https://cbpssubscriber.mygov.in/aff/tisrVKASXUgI8aPD')" title="This link will take you to an external website. | यह लिंक आपको एक बाहरी वेबसाइट पर ले जाएगा।" style="cursor:pointer" onload="javascript:(function(){if(typeof _done == 'undefined' || !_done){this.setAttribute('src', this.getAttribute('src')+'?'+Math.floor((Math.random() * 100) + 1)); _done=true;}}).call(this)" width="1400" >
+  </div>
+
+
+
+<style>
+
+</style>
+
+
+ 
+
+
+
+
+
+
+
+</head>
+<body>
+    
+ <div id="block-block-63" class="block block-block last even">
+
+      
+  
+
+
+
+
+
+
+
+
+<a class="wrapper" id="skipCont" tabindex="-1">&nbsp;</a>
+
+<div class="wrapper logo-carousel-wrapper">
+  <div class="container carousel-container">
+    <div class="wrapper logo-carousel-wrapper">
+      <div id="flexCarousel-logo" class="flexslider carousel">
+             <div class="region region-featured-top-slider">     <div id="block-views-footer-banner-block-2" class="block block-views first last odd">           <div class="view view-footer-banner view-id-footer_banner view-display-id-block_2 nbs-flexisel-container view-dom-id-3dc64ee825beb4ca4bf59c886b3cf592">                      <div class="view-content">           <ol class="slides">          <li class="">     <div class="views-field views-field-field-image">        <div class="field-content"><a href="https://mygov.in/" target="_blank"><img title="myGov Logo" alt="myGov Logo" src="../static/sites/default/files/styles/Digital_india.jpg" draggable="true"></a></div>  </div></li>           <li class="">     <div class="views-field views-field-field-image">        <div class="field-content"><a href="https://cpao.nic.in/Pensioner/ppo_status.php/" target="_blank"><img title="Central Pension Accounting Office" alt="Central Pension Accounting Office" src="../static/sites/default/files/styles/Integrity_Pledge (1).png" draggable="true"></a></div>  </div></li>           <li class="">     <div class="views-field views-field-field-image">        <div class="field-content"><a href="https://mnre.gov.in/" target="_blank"><img title="Ministry of New and Renewable Energy" alt="Ministry of New and Renewable Energy" src="../static/sites/default/files/styles/PIB.png" draggable="true"></a></div>  </div></li>           <li class="">     <div class="views-field views-field-field-image">        <div class="field-content"><a href="https://services.india.gov.in/" target="_blank"><img title="National Government Services Portal" alt="National Government Services Portal" src="../static/sites/default/files/styles/NGSP_0.png" draggable="true"></a></div>  </div></li>           <li class="">     <div class="views-field views-field-field-image">        <div class="field-content"><a href="https://india.gov.in/" target="_blank"><img title="The National Portal of India Logo" alt="The National Portal of India Logo" src="../static/sites/default/files/styles/ministry_of_energy.png" draggable="true"></a></div>  </div></li>           <li class="">     <div class="views-field views-field-field-image">        <div class="field-content"><a href="https://www.nvsp.in/" target="_blank"><img title="Online service for voters" alt="Online service for voters" src="../static/sites/default/files/styles/nvsp3.png"  draggable="true"></a></div>  </div></li>           <li class="">     <div class="views-field views-field-field-image">        <div class="field-content"><a href="https://digitalindia.gov.in/" target="_blank"><img title="Digital India" alt="Digital India" src="../static/sites/default/files/styles/my_gov_img.png"  draggable="true"></a></div>  </div></li>           <li class="">     <div class="views-field views-field-field-image">        <div class="field-content"><a href="https://pledge.cvc.nic.in/" target="_blank"><img title="Integrity Pledge" alt="Integrity Pledge" src="../static/sites/default/files/styles/my_gov_img.png"  draggable="true"></a></div>  </div></li>           <li class="">     <div class="views-field views-field-field-image">        <div class="field-content"><a href="https://www.pib.gov.in/" target="_blank"><img title="press information bureau" alt="press information bureau" src="../static/sites/default/files/styles/my_gov_img.png" draggable="true"></a></div>  </div></li>           <li class="">     </div></li>            </ol>    </div>                   </div> </div>   </div>    
+    </div>
+             </div>
+             </div>
+             </div>
+
+   
+    
+</div>
+
+
+
+      
+ 
+
+
+
+      
+
+
+
+
+  </footer>
+  
+</div>
+
+
+  
+    
+  
+  
+              				<div id="footer" class="text-center">
+                                        <div class="region region-footer-first">
+    <div id="block-menu-menu-footer-menu" class="block block-menu clearfix" role="contentinfo">
+
+    
+  <div class="content">
+    <ul><li><a href="en/content/terms-conditions.html">Terms &amp; Conditions</a></li>
+<li><a href="../static/en/content/nodal-officer-website.html">Web Information Manager</a></li>
+<li><a href="../static/en/content/citizen-charter.html">Citizen Charter</a></li>
+<li><a href="../static/en/content/intranet.html">INTRANET</a></li>
+<li><a href="../static/en/content/website-policies.html">Website Policies</a></li>
+<li><a href="../static/content/copyright-policy.html" target="_parent">Copyright Policy</a></li>
+<li><a href="../static/en/content/feedback.html">Feedback</a></li>
+<li><a href="../static/en/sitemap.html">Sitemap</a></li>
+<li><a href="../static/en/content/help.html">HELP</a></li>
+<li><a href="../static/en/content/related-links.html">Related Links</a></li>
+</ul>  </div>
+</div>
+  </div>
+                	
+<p><a href="sites/default/files/uploads/STQC_2.html" target="_blank"><img src="../static/sites/default/cqw_icon.png" width="52" height="48" title= "STQC Certification" alt="STQC Certification"></a></p>				
+                                        <div class="region region-footer-second">
+    <div id="block-block-3" class="block block-block clearfix" role="contentinfo">
+
+    
+  <div class="content">
+    <p>This website belongs to Ministry of Power Govt. of India, Shram Shakti Bhawan, Rafi Marg, New Delhi-1<br />Hosted by <a href="https://www.nic.in/">National Informatics Centre (NIC)</a></p>
+  </div>
+</div>
+  </div>
+                                   		
+                                
+	<p>Last Updated on: 07 Dec 2023</p>	
+ 	</div>
+					
+        
+</footer>
+
+</div>
+
+
+
+
+  
+
+  </body>
+</html>
+
