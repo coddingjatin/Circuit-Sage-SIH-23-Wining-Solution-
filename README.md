@@ -24,26 +24,6 @@ Circuit Sage is an intelligent chatbot that was developed as part of our **Smart
 
 ---
 
-## Our Team 🫂
-<p align="center">
-  <img src="images/SIH1.jpg" alt="Our Team" width="600"/>
-</p>
-<br>
-<p align="center">
-  <img src="images/SIH2.jpg" alt="Our Team" width="600"/>
-</p>
-<br>
-<p align="center">
-  <img src="images/SIH3.jpg" alt="Our Team" width="600"/>
-</p>
-<br>
-<p align="center">
-  <img src="images/SIH4.jpg" alt="Our Team" width="600"/>
-</p>
-
----
-
-
 ## 🔧 Tech Stack
 
 - **Backend:** Flask (Python)  
@@ -67,6 +47,22 @@ Circuit Sage is an intelligent chatbot that was developed as part of our **Smart
 3. Devashri Kapse
 4. Om Rakhade
 5. Gayatri Potbhare
+
+<p align="center">
+  <img src="images/SIH1.jpg" alt="Our Team" width="600"/>
+</p>
+<br>
+<p align="center">
+  <img src="images/SIH2.jpg" alt="Our Team" width="600"/>
+</p>
+<br>
+<p align="center">
+  <img src="images/SIH3.jpg" alt="Our Team" width="600"/>
+</p>
+<br>
+<p align="center">
+  <img src="images/SIH4.jpg" alt="Our Team" width="600"/>
+</p>
 
 ---
 
