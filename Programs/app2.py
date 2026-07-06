@@ -21,12 +21,7 @@ from tkinter import Tk, filedialog
 app = Flask(__name__)
 CORS(app)
 def CookieScrapper():
-    cookie_dict = {
-        "__Secure-1PSID": "g.a000gQiUyHwmMr9MIBWd1OCW1lOxA7P74nUFK9UYrgUuXZD8eALZ1Vbg95MorQMeSfuTtNMf3QACgYKAdsSAQASFQHGX2MiYxPjG4dxF3ggpUjAFteQ_RoVAUF8yKodGLuRXOAL6Re6TWR1rTcF0076",
-        "__Secure-1PSIDTS": "sidts-CjEBYfD7Z7IB7bFtohU8PA3YtucXzxUcOhlZhJB4HuyzFZaVnoJutfJmw0rbeDOu9pjUEAA",
-        "__Secure-1PSIDCC": "ABTWhQHVftHIfg0ZYY8Gwf9PoUDjzwUwtGZ4hInS_QHOsQ8JoRJrEaubnuoWR8rZKIgqr2Lqb-qV",
-    }
-    return cookie_dict
+    
 
 # Initialize Bard object and get cookies
 cookie_dict = CookieScrapper()
